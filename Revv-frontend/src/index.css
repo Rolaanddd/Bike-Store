@@ -1,0 +1,125 @@
+@import "tailwindcss";
+.login {
+  background-image: url(/src/photos/l.jpg);
+  background-size: cover;
+}
+.darkblue {
+  background-color: #11212d;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.bg-cream {
+  background-color: #f1ecc7;
+}
+.bg-cream2{
+  background-image: url(https://images.unsplash.com/photo-1634015190736-3cecd58f89fe?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+}
+.minscreen-91 {
+  min-height: 88vh;
+}
+.custom-shadow {
+  box-shadow: 0 5px 15px;
+}
+.h {
+  height: 87vh;
+}
+.bg-lightbrown{
+  color: #d4a373;
+}
+.bg-darkbrown{
+  color: #4a412a;
+}
+.pro{
+  border: solid 1px #d4a37300;
+  transition: all 0.2s ease-in-out;
+}
+.pro:hover{
+  transform: scale(1.05);
+  
+}
+.pro:hover{
+  border: solid 1px #59524c;
+}
+.incredecre{
+  background: linear-gradient(
+    0deg,
+    rgb(59, 125, 92) 0%,
+    rgb(79, 138, 84) 100%
+  );
+  color: white;
+  cursor: pointer;
+  height: 33px;
+  border-radius: 30%;
+  width: 40px;
+}
+.incredecre:active{
+  transform: scale(0.9);
+}
+.admin:active{
+ background-color: white;
+  color: #4a412a;
+  transform: scale(0.97);
+
+}
+.adminlogin{
+  background-image: url(/src/photos/adminlogin.jpg);
+  background-size: cover;
+}
+.admindiv{
+  background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 6px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+}
+.users:hover{
+ 
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: scale(0.4);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+.animate-fade-in {
+  animation: fade-in 0.4s ease-out;
+}
+.animate-move-in {
+  animation: slideFadeIn 0.9s ease-out;
+}
+.animate-move-out {
+  animation: slideFadeout 0.9s ease-out;
+}
+@keyframes slideFadeIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-700px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes slideFadeout {
+  0% {
+    opacity: 0;
+    transform: translateX(+700px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+
+
