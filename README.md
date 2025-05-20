@@ -68,7 +68,7 @@ Before running this project, ensure you have the following installed:
 - cd Revv-server
 - **Update the .env file and add your MongoDB connection string:** 
 - npm install
--npm run dev
+- npm run dev
 
 ### Set up frontend
 - cd ../Revv-frontend
