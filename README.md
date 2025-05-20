@@ -61,7 +61,7 @@ Before running this project, ensure you have the following installed:
 ## Getting Started
 
 ### Clone your repo
-- git clone <your-repo-url>
+- git clone https://github.com/Rolaanddd/Bike-Store.git
 - cd Bike-Store
 
 ### Set up backend
